@@ -1,0 +1,41 @@
+.hero-parent{
+    width: 100%;
+    /* height: calc(100vh - 100px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-chaild{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+        width: 600px;
+    }
+    button{
+        width: 100px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 1);
+        box-shadow: rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        border: none;
+        color: rgba(255, 255, 255, 1);
+    }
+}
+.hero-img{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
